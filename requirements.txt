@@ -1,5 +1,4 @@
 transformers==4.57.1
-flash-attn==2.7.3
 deepspeed
 accelerate
 torchcodec
