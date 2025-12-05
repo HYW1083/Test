@@ -24,6 +24,3 @@ pip install -e .
 ```bash
 pip install flash_attn-2.7.3+cu12torch2.5cxx11abiFALSE-cp39-cp39-linux_x86_64.whl
 ```
-/home/lunet/cohw2/Projects/Test/data/trajectory_data
-
-/home/lunet/cohw2/Downloads/hm3d-train-habitat-v0.2.tar
