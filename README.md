@@ -15,12 +15,14 @@ cd ..
 pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124
 
 pip install -r requirements.txt
-pip install flash-attn==2.7.3 --no-build-isolation
+pip install --no-build-isolation \
+  "https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu12torch2.5cxx11abiFALSE-cp39-cp39-linux_x86_64.whl"
+
 
 pip install -e .
 ```
 
-安装[flash-atten-2.7.3](https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu12torch2.5cxx11abiFALSE-cp39-cp39-linux_x86_64.whl),之后使用
+或者安装[flash-atten-2.7.3](https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.3/flash_attn-2.7.3+cu12torch2.5cxx11abiFALSE-cp39-cp39-linux_x86_64.whl),之后使用
 
 ```bash
 pip install flash_attn-2.7.3+cu12torch2.5cxx11abiFALSE-cp39-cp39-linux_x86_64.whl
